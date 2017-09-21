@@ -1,0 +1,272 @@
+.share_buttons {
+	position: fixed;
+	top: 100px;
+	left: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.share_button {
+	margin: 5px;
+}
+
+.brand-frame {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 25px;
+	padding: 15px;
+	padding-top: 40px;
+}
+
+.link-iscrizione {
+	background-color: rgba(0, 128, 0, 0.6);
+	border-radius: 15px;
+}
+
+#location {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+#c4p {
+	background: rgba(0, 170, 212, 0.3);
+}
+
+#sponsor {
+	background: white;
+	_background: rgba(0, 170, 212, 0.2);
+}
+
+#iscrizione {
+	background: rgba(0, 170, 212, 0.3);
+}
+
+#programma {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+#staff {
+	background: white;
+	_background: rgba(0, 170, 212, 0.3);
+}
+
+#staytuned {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+.staff_member {
+	display: inline-block;
+	margin: 10px;
+}
+.staff_member_img {
+	height: 150px;
+}
+
+table.prtbl {
+	_background: rgba(0, 170, 212, 0.6);
+	background: white;
+	_border: solid rgba(0, 170, 212, 1);
+	border: 10px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+.prtbl td {
+	_border: solid rgba(0, 170, 212, 0.3);
+	padding: 10px;
+	vertical-align: top;
+	_padding-bottom: 20px;
+}
+.prtr_header {
+	font-style: italic;
+}
+.prtr_header td
+{
+	padding: 0px;
+}
+td.prtd_hh {
+	padding-left: 0;
+	border-top: 1px solid #ddd;
+}
+.prtd_checkin {
+	background: rgba(226, 204, 102, 0.6);
+}
+.prtd_opening {
+	background: rgba(0, 170, 212, .4);
+	_background: rgba(226, 204, 102, 0.6);
+}
+.prtd_pausa {
+	_background: rgba(0, 170, 212, .4);
+	background: rgba(226, 204, 102, 0.6);
+}
+.prtd_sessione {
+	width: 550px;
+	_background: rgb(226, 204, 102);
+	background: rgba(0, 170, 212, 0.25);
+}
+.prtd_sessione.alt {
+	background: rgba(0, 170, 212, 0.15);
+}
+
+td.prtd_lightning {
+	padding: 5px;
+	_background: rgba(0, 170, 212, 0.2);
+}
+.prtd_workshop {
+	width: 550px;
+	_background: rgb(239, 131, 76);
+	background: rgba(0, 170, 212, 0.9);
+	color: white;
+}
+
+.sponsor-table td {
+	padding: 0 10px 0px 10px;
+	text-align: center;
+	font-size: 10px;
+	color: #00AAD4;
+}
+.sponsor-table img {
+	max-height: 30px;
+	margin-bottom: 3px;
+}
+
+.sponsor-container {
+	
+}
+.sponsor-line {
+	margin: 0 auto 0 auto;
+}
+
+.sponsor-div{
+	
+}
+
+.sponsor-img-stampa{
+	max-height: 40px;
+	margin: 0 5px 0 5px;	
+}
+
+.session_title {
+	font-weight: bold;
+	padding: 0 10%;
+}
+
+.session_speaker {
+	font-style: italic;
+}
+.session_lightningtalks_label {
+	text-align: left;
+	_font-style: italic;
+	_font-weight: bold;
+	text-transform: uppercase;
+	font-size: 80%;
+}
+
+.lightinig-cell {
+	position: relative;
+}
+
+.sticker {
+	float: left;
+	position: absolute;
+	top: -0.5em;
+	left: -1em;
+	padding: .25em .5em;
+	background: rgb(128, 225, 255);
+	border-radius: 2px;
+	border: .25em solid white;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+	transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	zoom: 0.8;
+}
+
+.btn-cta {
+	_background: rgba(226, 204, 102, 1);
+	_background: rgba(0, 170, 212, 0.3);
+	background: #5AB953;
+	color: white;
+	border-color: #49A34B;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cta:hover, .btn-cta:focus {
+	background: #49A34B;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cta:active {
+	box-shadow: none;
+}
+
+.well {
+	background: white;
+	padding: 2em 0;
+	border: 4px solid #009bc2;
+}
+
+.box-eventbrite {
+	position: relative;
+}
+
+.save-the-date {
+	text-transform: uppercase;
+	font-size: 140%;
+	background: rgb(0, 170, 212);
+	color: white;
+	font-weight: bold;
+}
+
+.btn-iscriviti {
+	background-color: green;
+	color: white;border; 5px;
+}
+
+.info-iscrizione {
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.6;
+	margin: 50px 150px auto 150px;
+	list-style-type: none;
+}
+
+.abstract-link {
+	color: black;
+}
+
+.abstracts {
+	margin-top: 30px;
+	background: white;
+	padding: 10px;
+}
+
+.abstract-div {
+	text-align: left;
+}
+
+.abstract-time {
+	float: left;
+	padding: 10px;
+}
+
+.abstract-content {
+	margin-left: 60px;
+	padding: 10px;
+	background: rgba(0, 170, 212, 0.25);
+}
+
+.abstract-content.alt {
+	background: rgba(0, 170, 212, 0.15);
+}
+
+.abstract-title {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.abstract-speaker {
+	font-style: italic;
+}
+
+.abstract-text {
+	margin: 15px auto 15px;
+}

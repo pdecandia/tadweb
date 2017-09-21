@@ -1,0 +1,251 @@
+
+.brand-frame {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 25px;
+	padding: 15px;
+	padding-top: 40px;
+}
+
+.link-iscrizione {
+	background-color: rgba(0, 128, 0, 0.6);
+	border-radius: 15px;
+}
+
+#location {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+#c4p {
+	background: rgba(0, 170, 212, 0.3);
+}
+
+#sponsor {
+	background: white;
+	_background: rgba(0, 170, 212, 0.2);
+}
+
+#iscrizione {
+	background: rgba(0, 170, 212, 0.3);
+}
+
+#programma {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+#staff {
+	background: white;
+	_background: rgba(0, 170, 212, 0.3);
+}
+
+#staytuned {
+	background: rgba(0, 170, 212, 0.2);
+}
+
+.staff_member {
+	display: inline-block;
+	margin: 10px;
+}
+.staff_member_img {
+	height: 150px;
+}
+
+.sponsor-container {
+	margin-bottom: 80px;
+}
+.sponsor-line {
+}
+.sponsor-div {
+	display: inline-block;
+	margin: 50px 90px auto 90px;
+}
+
+.btn-cta {
+	_background: rgba(226, 204, 102, 1);
+	_background: rgba(0, 170, 212, 0.3);
+	background: #5AB953;
+	color: white;
+	border-color: #49A34B;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cta:hover, .btn-cta:focus {
+	background: #49A34B;
+	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-cta:active {
+	box-shadow: none;
+}
+
+.well {
+	background: white;
+	padding: 2em 0;
+	border: 4px solid #009bc2;
+}
+
+.save-the-date {
+	text-transform: uppercase;
+	font-size: 140%;
+	background: rgb(0, 170, 212);
+	color: white;
+	font-weight: bold;
+}
+
+.btn-iscriviti {
+	background-color: green;
+	color: white;border; 5px;
+}
+
+.info-iscrizione {
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.6;
+	margin: 50px 150px auto 150px;
+	list-style-type: none;
+}
+
+.abstracts {
+	margin-top: 30px;
+	background: white;
+	padding: 10px;
+  text-align: justify;
+}
+
+.abstract {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px;
+	background: rgba(0, 170, 212, 0.25);
+}
+
+.abstract.alt {
+	background: rgba(0, 170, 212, 0.15);
+}
+
+.abstract h3 {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.abstract h4 {
+	font-style: italic;
+}
+
+@media print {
+	table {
+		border: 1px solid black;
+	}
+	tr {
+		border: 1px solid black;
+	}
+	td {
+		border: 1px solid black;
+	}
+	th {
+		border: 1px solid black;
+	}
+	.programma {
+		page-break-before: always;
+	}
+	.abstracts {
+		page-break-before: always;
+	}
+}
+
+.a-videoslide
+{
+	margin-left: 5px;
+}
+
+.img-youtube {
+	height: 28px;
+}
+
+.img-slideshare {
+	height: 26px;
+}
+
+#keynote p {
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 5pt;
+}
+
+#rans-bio {
+  margin-top: 2em;
+}
+
+h2 {
+  margin-top: 3em;
+}
+
+table.prtbl {
+	_background: rgba(0, 170, 212, 0.6);
+	background: white;
+	_border: solid rgba(0, 170, 212, 1);
+	border: 20px solid white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.prtbl a {
+	color: black;
+}
+
+.prtbl .prtd_workshop a {
+	color: white;
+}
+
+.prtbl th {
+  text-align: center;
+}
+
+.prtbl td {
+	_border: solid rgba(0, 170, 212, 0.3);
+	padding: 15px;
+	vertical-align: middle;
+	_padding-bottom: 20px;
+}
+.prtr_header {
+	font-style: italic;
+}
+td.prtd_hh {
+	padding-left: 0;
+	border-top: 1px solid #ddd;
+}
+.prtd_checkin {
+	background: rgba(226, 204, 102, 0.6);
+}
+.prtd_opening {
+	background: rgba(0, 170, 212, .4);
+	_background: rgba(226, 204, 102, 0.6);
+}
+.prtd_pausa {
+	_background: rgba(0, 170, 212, .4);
+	background: rgba(226, 204, 102, 0.6);
+}
+.prtd_sessione {
+	width: 550px;
+	_background: rgb(226, 204, 102);
+	background: rgba(0, 170, 212, 0.25);
+}
+.prtd_sessione.alt {
+	background: rgba(0, 170, 212, 0.15);
+}
+
+td.prtd_lightning {
+	padding: 5px;
+	_background: rgba(0, 170, 212, 0.2);
+}
+.prtd_workshop {
+	width: 550px;
+	_background: rgb(239, 131, 76);
+	background: rgba(0, 170, 212, 0.9);
+	color: white;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #AAA;
+}

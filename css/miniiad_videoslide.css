@@ -1,0 +1,73 @@
+body {
+	background-color: rgb(178, 229, 242);
+}
+
+.tutto {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.share_buttons {
+	margin: 5px 0 5px 0;
+}
+
+.share_button {
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+
+.header {
+	margin: 25px auto;
+}
+
+.header-logo {
+	display: inline-block;
+}
+
+.header-titles {
+	display: inline-block;
+	margin: 0 0 0 30px;
+	vertical-align: top;
+}
+
+.header-title {
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.header-speaker {
+	font-style: italic;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.video {
+	display: inline-block;
+}
+
+.slide {
+	display: inline-block;
+}
+
+.abstract-content {
+	padding: 10px;
+	background: rgba(0, 170, 212, 0.25);
+}
+
+.abstract-content.alt {
+	background: rgba(0, 170, 212, 0.15);
+}
+
+.abstract-title {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.abstract-speaker {
+	font-style: italic;
+}
+
+.abstract-text {
+	margin: 15px auto 15px;
+}
