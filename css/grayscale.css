@@ -20,7 +20,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #009bc2;
+
 }
 p {
   margin: 0 0 25px;
@@ -109,7 +109,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: #444444;
-  background: url(../img/vimercate.jpg) no-repeat bottom center scroll;
+  background: url(../img/tadbackground.jpg) no-repeat bottom center scroll;
   background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
