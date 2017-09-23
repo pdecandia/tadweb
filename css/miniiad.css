@@ -30,7 +30,11 @@
 }
 
 #programma {
-	background: rgba(0, 170, 212, 0.2);
+	background: #A00A0A;
+}
+
+#programma h2{
+	color: white;
 }
 
 #staff {
@@ -45,6 +49,8 @@
 .staff_member {
 	display: inline-block;
 	margin: 10px;
+	border-radius:50%;
+	overflow:hidden;
 }
 .staff_member_img {
 	height: 150px;
@@ -177,7 +183,7 @@
 }
 
 h2 {
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 table.prtbl {
