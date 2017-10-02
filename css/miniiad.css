@@ -48,11 +48,15 @@
 
 .staff_member {
 	display: inline-block;
-	margin: 10px;
+	margin: 20px;
 	border-radius:50%;
 	overflow:hidden;
 }
 .staff_member_img {
+	height: 150px;
+}
+
+.speaker_member_img {
 	height: 150px;
 }
 
