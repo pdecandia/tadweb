@@ -260,3 +260,14 @@ hr {
   height: 1px;
   background-color: #AAA;
 }
+
+.speaker_abstract{
+	font-size: 1em;
+}
+
+.speaker_title{
+	font-size: 1em;
+}
+.speaker_name{
+	font-size: 14px;
+}
