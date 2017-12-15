@@ -60,6 +60,10 @@
 	height: 150px;
 }
 
+.speaker_member_img_small {
+	height: 100px;
+}
+
 .sponsor-container {
 	margin-bottom: 80px;
 }
@@ -126,7 +130,7 @@
 	margin-left: 30px;
 	margin-right: 30px;
 	padding: 10px;
-	background: rgba(0, 170, 212, 0.25);
+	/*background: rgba(0, 170, 212, 0.25);*/
 }
 
 .abstract.alt {
@@ -271,3 +275,4 @@ hr {
 .speaker_name{
 	font-size: 14px;
 }
+
