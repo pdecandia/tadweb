@@ -52,6 +52,11 @@
 	border-radius:50%;
 	overflow:hidden;
 }
+.staff_member_talk {
+	display: inline-block;
+	border-radius:50%;
+	overflow:hidden;
+}
 .staff_member_img {
 	height: 150px;
 }
@@ -267,6 +272,11 @@ hr {
 
 .speaker_abstract{
 	font-size: 1em;
+}
+
+.speaker_bio{
+	font-size: 1em;
+	font-style: italic;
 }
 
 .speaker_title{
