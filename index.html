@@ -1,480 +1,965 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Torino Agile Conference 2018 - mini IAD Torino 2018 è l'evento Italian Agile Day che va in tournée a Torino. Tratta argomenti come Agile, Lean, Extreme Programming sia a livello di processo che di pratiche.">
-    <meta property="og:url" content="http://www.agileday.it/mini/2018/torino/">
-    <meta property="og:title" content="Torino Agile Conference 2018 - Come rispondere al cambiamento? Organizzazioni, idee e pratiche per lo sviluppo software ed oltre.">
-    <meta property="og:description" content="Torino Agile Conference 2018 è il mini Italian Agile Day che va in tourné. Tratta argomenti come Agile, Lean, Extreme Programming sia a livello di processo che di pratiche.">
-	<meta property="og:image" content="http://www.agileday.it/mini/2018/torino/img/logotad_sharing.png" />
-    <title>Torino Agile Conference 2018 - Come rispondere al cambiamento? Software e oltre</title>
-    <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <!-- Custom Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/miniiad.css" rel="stylesheet">
-	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/smooth-scrolling.js"></script>
-  </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-    <nav class="navbar navbar-custom navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> </button> <a class="navbar-brand" href="#page-top" style="padding: 15px 15px 5px;">Torino Agile <br/><span class="light">Conference 2018</span></a></div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-          <ul class="nav navbar-nav">
-            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-            <li class="hidden"> </li>
-            <!-- <li class="page-scroll"> <a href="#c4p">Proponi un intervento</a></li> -->
-            <li class="page-scroll"> <a href="#keynote">Keynote</a></li>
-            <li class="page-scroll"> <a href="#programma">Programma</a></li>
-            <li class="page-scroll"> <a href="#iscrizione">Iscrizione</a></li>
-            <li class="page-scroll"> <a href="#sponsor">Sponsor</a></li>
-            <li class="page-scroll"> <a href="#location">Location</a></li>
-			<li class="page-scroll"> <a href="#cfs">Call4Session</a></li>
-            <li class="page-scroll"> <a href="#staff">Staff</a></li>
-          </ul>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Torino Agile Conference 2018 - mini IAD Torino 2018 è l'evento Italian Agile Day che va in tournée a Torino. Tratta argomenti come Agile, Lean, Extreme Programming sia a livello di processo che di pratiche.">
+  <meta property="og:url" content="http://www.agileday.it/mini/2018/torino/">
+  <meta property="og:title" content="Torino Agile Conference 2018 - Come rispondere al cambiamento? Organizzazioni, idee e pratiche per lo sviluppo software ed oltre.">
+  <meta property="og:description" content="Torino Agile Conference 2018 è il mini Italian Agile Day che va in tourné. Tratta argomenti come Agile, Lean, Extreme Programming sia a livello di processo che di pratiche.">
+  <meta property="og:image" content="http://www.agileday.it/mini/2018/torino/img/logotad_sharing.png" />
+  <title>Torino Agile Conference 2018 - Come rispondere al cambiamento? Software e oltre</title>
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- Bootstrap Core CSS -->
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- Fonts -->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <!-- Custom Theme CSS -->
+  <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/miniiad.css" rel="stylesheet">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/smooth-scrolling.js"></script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> </button> <a class="navbar-brand" href="#page-top" style="padding: 15px 15px 5px;">Torino Agile <br/><span class="light">Conference 2018</span></a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden"> </li>
+        <!-- <li class="page-scroll"> <a href="#c4p">Proponi un intervento</a></li> -->
+        <li class="page-scroll"> <a href="#keynote">Keynote</a></li>
+        <li class="page-scroll"> <a href="#programma">Programma</a></li>
+        <li class="page-scroll"> <a href="#iscrizione">Iscrizione</a></li>
+        <li class="page-scroll"> <a href="#sponsor">Sponsor</a></li>
+        <li class="page-scroll"> <a href="#location">Location</a></li>
+        <li class="page-scroll"> <a href="#cfs">Call4Session</a></li>
+        <li class="page-scroll"> <a href="#staff">Staff</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> </div>
+  <!-- /.container --> </nav>
+<section class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="brand-frame">
+            <h1 class="brand-heading">
+              <img id="headerimg" class="img-responsive center-block" src="img/logotad.png" alt="mini IAD">
+            </h1>
+            <h1>Torino, 3 febbraio 2018</h1>
+            <h2>Agile, come rispondere al cambiamento?</h2>
+            <p class="intro-text"> Organizzazioni, idee e pratiche per lo sviluppo software ed oltre.
+            </p>
+            <div class="page-scroll">
+              <a href="#keynote" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a>
+            </div>
+            <p class="page-scroll"> </p>
+          </div>
         </div>
-        <!-- /.navbar-collapse --> </div>
-      <!-- /.container --> </nav>
-    <section class="intro">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="brand-frame">
-                <h1 class="brand-heading">
-                  <img id="headerimg" class="img-responsive center-block" src="img/logotad.png" alt="mini IAD">
-                </h1>
-                <h1>Torino, 3 febbraio 2018</h1>
-                <h2>Agile, come rispondere al cambiamento?</h2>
-                <p class="intro-text"> Organizzazioni, idee e pratiche per lo sviluppo software ed oltre.
-                </p>
-                <div class="page-scroll">
-                  <a href="#keynote" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="keynote" class="content-section text-center" lang="en">
+  <div class="row">
+    <div class="col-lg-5 col-lg-offset-1">
+      <h2>Opening Keynote</h2>
+      <div class="staff_member">
+        <a href="https://www.linkedin.com/in/provaglio/" target="_blank"><img src="img/speakers/andrea_provaglio.jpg" alt="Andrea Provaglio" class="speaker_member_img"></a>
+      </div>
+      <h3>Andrea provaglio<br/> <em>Managers, Complexity and Agility</em></h3>
+      <p>How is it like for a manager to work in an environment where knowing the past will hardly help foresee the future? An environment where unpredictability and change are, in fact, the only constant? And how does this affect -- and is affected by -- the kind of intellectual work that is the true asset many organizations have, these days, to generate value?
+        In this talk we'll see how living and operating in the 21st century calls for a whole new set of skills for managers and how, most relevantly, calls for a mindset that's slightly different from the one we got used to in past decades.
+        We'll talk about the connection between mindset, complexity and agility; and you'll get some practical advice that can help you operate better in these domains.</p>
+
+      <div id="rans-bio">
+        <p><b>Andrea Provaglio</b> Agile organizational coach. Andrea assists executives, managers and teams in knoledge-based organizations in implementing better ways of dooing business in 21st century. In over 20 years he worked with multinationals and small companies in three continents. He obtained a U.S. work visa for "extraordinary abilities in sciences"</p>
+      </div>
+    </div>
+    <div class="col-lg-5" id="keynote1">
+      <h2>Closing Keynote</h2>
+      <div class="staff_member"> <a href="https://myPersonalAgility.org" target="_blank"><img src="img/speakers/peter_stevens.jpg" alt="Peter Stevens" class="speaker_member_img"></a>
+      </div>
+      <h3>Peter Stevens<br/> <em>How to do what matters: From personal satisfaction to professional impact</em></h3>
+      <p>Do you have more things to do than time to do them? Many people do. So which things should you do? The ones that matter. Which ones matter? That is a harder question! This talk explains a simple agile framework to help you figure out and do more that really matters. This talk give answers, shares case studies, and shows how the same simple framework becomes a leadership tool to enable your organization to better identify and achieve its goals.</p>
+      <div id="rans-bio">
+        <p> <b>Peter Stevens</b> is a Certified Scrum Trainer who has been inspiring companies and individuals to transform themselves to a better way of working since 2006. He has taught Scrum to over 2000 people, mostly in Switzerland, Portugal, Italy and India. In 2012 he partnered with Steve Denning and others to host the Stoos Gathering to inspire a rethinking of management. Currently he is working with fellow CST Maria Matarelli on a new book, Personal Agility: Do More That Matters (free download of chapters and other tools as they become available under <a target="_blank" href="http://www.MyPersonalAgility.org">Personal Agility: Do More That Matters.</a> His newest (online) course is “The Personal Agility System: Double Your Impact in 8 weeks”</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>Speaker</h2>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="staff_member">
+        <a href="#ferdinandosantacroce" target="_blank"><img src="img/speakers/ferdinandosantacroce.jpg" alt="Ferdinando Santacroce" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Ferdinando Santacroce<br/> <em>Object Calisthenics</em></h3>
+
+    </div>
+    <div class="col-lg-3">
+      <div class="staff_member">
+        <a href="#matteocarella" target="_blank"><img src="img/speakers/matteocarella.jpg" alt="Matteo Carella" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Matteo Carella<br/> <em class="speaker_title">Agile: How to set the ground</em></h3>
+
+    </div>
+
+    <div class="col-lg-3">
+      <div class="staff_member">
+        <a href="#stefanoporro" target="_blank"><img src="img/speakers/stefanoporro.png" alt="Stefano Porro" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Stefano Porro<br/> <em class="speaker_title">L'effetto Dunning-Kruger: sfruttarlo a nostro vantaggio con Agile</em></h3>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="staff_member">
+        <a href="#deborahghisolfi" target="_blank"><img src="img/speakers/deborahghisolfi.png" alt="Deborah Ghisolfi" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Deborah Ghisolfi<br/> <em>Il marketing ha bisogno di essere Agile</em></h3>
+
+
+    </div>
+    <div class="col-lg-3 ">
+      <div class="staff_member">
+        <a href="#paolodincau" target="_blank"><img src="img/speakers/paolodincau.jpg" alt="Paolo D'Incau" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Paolo D'Incau<br/> <em>I terribili "guardiani della codebase"</em></h3>
+
+    </div>
+    <div class="col-lg-3 ">
+      <div class="staff_member">
+        <a href="#nicolasfondrini" target="_blank"><img src="img/speakers/nicolasfondrini.jpg" alt="Nicola Sfondrini" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Nicola Sfondrini<br/> <em>Agile organization transformation in a big enterprise</em></h3>
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="row">
+        <div class="col-lg-6" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#felicepescatore" target="_blank"><img src="img/speakers/felicepescatore.jpg" alt="Felice Pescatore" class="speaker_member_img"></a>
+          </div>
+        </div>
+        <div class="col-lg-6" style="margin-left: -20px;">
+          <div class="staff_member">
+            <a href="#felicepescatore" target="_blank"><img src="img/speakers/vincentthavonekham.jpg" alt="Vincent Thavonekham" class="speaker_member_img"></a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="speaker_name">Felice Pescatore - Vincent Thavonekham<br/> <em>Agile meets IoT</em></h3>
+
+    </div>
+    <div class="col-lg-3 ">
+      <div class="staff_member">
+        <a href="#giulioroggero" target="_blank"><img src="img/speakers/giulioroggero.jpg" alt="Giulio Roggero" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Giulio Roggero<br/> <em>Da Spaghetti API a Piattaforma Digitale</em></h3>
+    </div>
+    <div class="col-lg-3 ">
+      <div class="staff_member">
+        <a href="#emanuelepassera" target="_blank"><img src="img/speakers/emanuelepassera.jpg" alt="Emanuele Passera" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Emanuele Passera<br/> <em>Agile Projects and Lazy Contracts</em></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="staff_member">
+        <a href="#stefaniadicristofalo" target="_blank"><img src="img/speakers/stefaniadicristofalo.jpg" alt="Deborah Ghisolfi" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Stefania Di Cristofalo<br/> <em>Come ti cambio l'organizzazione con un Team Agile e un Capo Progetto</em></h3>
+
+    </div>
+    <div class="col-lg-3 ">
+      <div class="row">
+        <div class="col-lg-3" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#claudiosaurin" target="_blank"><img src="img/speakers/claudiosauring.jpg" alt="Claudio Saurin" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+        <div class="col-lg-3" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#claudiosaurin" target="_blank"><img src="img/speakers/danielarinaldi.jpg" alt="Daniela Rinaldi" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+        <div class="col-lg-3" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#claudiosaurin" target="_blank"><img src="img/speakers/gabrielecorletto.jpg" alt="Gabriele Corletto" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+        <div class="col-lg-3" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#claudiosaurin" target="_blank"><img src="img/speakers/michelestangherlin.jpg" alt="Michele Stangherlin" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+      </div>
+      <h3 class="speaker_name">Claudio Saurin - Daniela Rinaldi - Gabriele Corletto - Michele Stangherlin<br/> <em>Il fattore umano nello sviluppo Agile delle Macchine </em></h3>
+    </div>
+    <div class="col-lg-3 ">
+      <div class="staff_member">
+        <a href="#alessiodeltoro" target="_blank"><img src="img/speakers/alessiodeltoro.jpg" alt="Alessio Del Toro" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Alessio Del Toro<br/> <em>Il Change Management nelle transizioni Agile</em></h3>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="row">
+        <div class="col-lg-4" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#andreatorinorodriguez" target="_blank"><img src="img/speakers/andreatorinorodriguez.png" alt="Andrea Torino Rodriguez" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+        <div class="col-lg-4" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#andreatorinorodriguez" target="_blank"><img src="img/speakers/marcoperrando.jpg" alt="Marco Perrando" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+        <div class="col-lg-4" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#andreatorinorodriguez" target="_blank"><img src="img/speakers/valentinapieroni.jpg" alt="Valentina Pieroni" class="speaker_member_img_small"></a>
+          </div>
+        </div>
+      </div>
+      <h3 class="speaker_name">Andrea Torino Rodriguez - Marco Perrando - Valentina Pieroni<br/> <em>Analisi Transazionale, un nuovo strumento per agilisti</em></h3>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="row">
+        <div class="col-lg-6" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#davideroitero" target="_blank">
+              <img src="img/speakers/davidelucaroitero.jpg" alt="Davide Luca Roitero" class="speaker_member_img"></a>
+          </div>
+        </div>
+        <div class="col-lg-6" style="margin-left: -10px;">
+          <div class="staff_member">
+            <a href="#davideroitero" target="_blank"><img src="img/speakers/francescamartinuzzi.jpg" alt="Marco Perrando" class="speaker_member_img"></a>
+          </div>
+        </div>
+      </div>
+      <h3 class="speaker_name">Davide Luca Roitero - Francesca Martinuzzi<br/> <em>Viaggio nel tempo: il coaching dai giorni nostri all’antica Grecia</em></h3>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="staff_member">
+        <a href="#alessandroviolini" target="_blank">
+          <img src="img/speakers/alessandroviolini.jpg" alt="Alessandro Violini" class="speaker_member_img"></a>
+      </div>
+      <h3 class="speaker_name">Alessandro Violini<br/> <em>Il collante strategico durante lo sviluppo: continuous discovery</em></h3>
+    </div>
+
+  </div>
+</section>
+
+<section id="programma" class="content-section text-center">
+  <h2>Programma</h2>
+  <table class='desktop prtbl'>
+    <tr>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>Sala 1</th>
+      <th>Sala 2</th>
+      <th>Sala Workshop</th>
+    </tr>
+
+    <tr><td>08:30</td><td>09:30</td><td colspan='3' class='prtd_checkin'>Accoglienza / registrazione e caffè di benvenuto</td></tr>
+
+    <tr><td>09:30</td><td>10:30</td><td colspan='3' class='prtd_sessione'>Keynote: <a href='#keynote'>Andrea Provaglio: <em>Managers, Complexity and Agility</em></a></td></tr>
+
+    <tr><td>10:40</td><td>11:15</td>
+      <td class='prtd_sessione alt'><a href='#matteocarella'><em>Agile: how to set the ground</em></a><br>Matteo Carella</td>
+      <td class='prtd_sessione alt'><a href='#paolodincau'><em>I terribili "guardiani della codebase"</em></a> <br>Paolo D'Incau</td>
+      <td class='prtd_workshop' rowspan='3'><a href='#ferdinandosantacroce'><em>Object Calisthenics</em></a> <br>Ferdinando Santacroce</td>
+    </tr>
+
+    <tr><td>11:25</td><td>12:00</td>
+      <td class='prtd_sessione'><a href='#stefaniadicristofalo'><em>Come ti cambio l'organizzazione con un Team Agile e un Capo Progetto</em></a><br>Stefania Di Cristofalo</td>
+      <td class='prtd_sessione'><a href='#claudiosaurin'><em>Il fattore umano nello sviluppo Agile delle Macchine</em></a><br>Claudio Saurin</td>
+    </tr>
+
+    <tr><td>12:10</td><td>12:45</td>
+      <td class='prtd_sessione alt'><a href='#davideroitero'><em>Viaggio nel tempo: il coaching dai giorni nostri all’antica Grecia</em></a><br>Davide Roitero</td>
+      <td class='prtd_sessione alt'><a href='#alessandroviolini'>Lightning: <em>Il collante strategico durante lo sviluppo: continuous discovery</em></a><br>Alessandro Violini
+        <hr> <a href='#nicolasfondrini'>Lightning: <em>Agile organization transformation in a big enterprise</em></a> <br>Nicola Sfondrini</td>
+    </tr>
+
+    <tr><td>12:45</td><td>14:00</td><td colspan='3' class='prtd_pausa'>Pranzo & networking</td></tr>
+
+    <tr><td>14:00</td><td>14:35</td>
+      <td class='prtd_sessione'><a href='#alessiodeltoro'><em>Il Change Management nelle transizioni Agile</em></a><br>Alessio Del Toro</td>
+      <td class='prtd_sessione'><a href='#giulioroggero'><em><a href='#felicepescatore'><em>Agile meets IoT</em></a> <br>Felice Pescatore</td>
+      <td rowspan='3' class='prtd_workshop'><a href='#andreatorinorodriguez'><em>Analisi Transazionale, un nuovo strumento per agilisti</em></a> <br>Andrea Torino Rodriguez</td>
+    </tr>
+
+    <tr><td>14:45</td><td>15:20</td>
+      <td class='prtd_sessione alt'><a href='#emanuelepassera'><em>Agile Projects and Lazy Contracts</em></a> <br>Emanuele Passera</td>
+      <td class='prtd_sessione alt'>Da Spaghetti API a Piattaforma Digitale</em></a> <br>Giulio Roggero</td>
+    </tr>
+
+    <tr><td>15:30</td><td>16:05</td>
+      <td class='prtd_sessione'><a href='#stefanoporro'><em>L'effetto Dunning-Kruger: sfruttarlo a nostro vantaggio con Agile</em></a><br>Stefano Porro</td>
+      <td class='prtd_sessione'><a href='#deborahghisolfi'><em>Il marketing ha bisogno di essere Agile</em></a><br>Deborah Ghisolfi</td>
+    </tr>
+
+    <tr>
+      <td>16:05</td><td>16:15</td><td colspan='3' class='prtd_checkin'>Break</td>
+    </tr>
+
+    <tr><td>16:15</td><td>17:15</td><td colspan='3' class='prtd_sessione alt'>Keynote: <a href='#keynote1'>Peter Stevens: <em>How to do what matters: From personal satisfaction to professional impact</em></a></td>
+
+    <tr><td>17:15</td><td>17:30</td><td colspan='3' class='prtd_checkin'>Chiusura lavori</td></tr>
+  </table>
+
+  <div class="page-scroll">
+    <a href="#iscrizione" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a>
+  </div>
+
+  <div class='row'>
+    <div class='abstracts col-lg-10 col-lg-offset-1'>
+      <div class='abstract alt' id='matteocarella'>
+        <h3>Matteo Carella - Agile: how to set the ground</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/matteo-carella-97104636" target="_blank"><img src="img/speakers/matteocarella.jpg" alt="Matteo Carella" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            My work is spreading agile and lean culture, helping people with theory and practice, mentoring, facilitating and supporting them. I also coach teams, managers and executives (CTOs, CEOs) in order to help them grow strong in applying Agile methodologies to their work. My mission: helping organizations to create, share, use and manage knowledge, foster innovation and turn their way of working into a competitive advantage, doing all of this at a sustainable peace for their employees, through continuous improvement, and maximizing the value delivered for their customers. Speaker Agile O' Day Napoli 2017, speaker Agile Business Day Venezia 2017, speaker Italian Agile Days 2017.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Le organizzazioni sono sistemi adattivi complessi: hanno una predisposizione e non sono causali. Vuol dire che non possiamo seguire una ricetta ne best practices, affinchè la nostra cultura Agile cresca sane e genuina. Possiamo però lavorare sulle condizioni al contorno, quelle che preparano il terreno per far si che qualcosa di unico cresca.<br/><br/>
+              Le grandi organizzazioni del settore bancario e dell' ingegneria dei sistemi, dato il numero di funzioni (non lean/agile) e il numero di persone coinvolte, non possono prescindere dal seguire processi operativi definiti che garantiscano il rispetto delle normative di settore. In questo caso, può essere selezionato un team agile la cui mission sia non solo generare valore realizzando un prodotto di qualità ma anche diffondere per contagio il cambiamento nell'organizzazione contribuendo a modificare i processi operativi e il modo in cui si fa assicurazione qualità. In questo modo la cultura si diffonde nell'organizzazione creando terreno fertile alle successive iniziative agili.Quando la creazione di valore per il business dell’organizzazione implica l’esplorazione  di nuove funzionalità, nuove tecnologie   e la conformità a stringenti requisiti di normativa, le funzioni Assicurazione Qualità e Sviluppo vanno a braccetto nel prevenire i rischi e a diffondere l’agilità.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='paolodincau'>
+        <h3>Paolo D'Incau - I terribili "guardiani della codebase"</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/pdincau" target="_blank"><img src="img/speakers/paolodincau.jpg" alt="Paolo D'Incau" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Lavoro come sviluppatore agile. Sono molto interessato a tematiche relative al lavoro di team e alla cultura DevOps.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Spesso le persone con maggiori conoscenze tecniche e di maggiore esperienza tendono a diventare protettive nei confronti del software che hanno costruito. Durante il talk scopriremo quali sono i principali danni che questo comportamento può arrecare e capiremo come i guardiani possano cambiare e diventare i catalizzatori per la crescita del team.<br/><br/>
+              Facendo principalmente consulenza in team in cui si sviluppa software ho avuto occasione di vedere spesso il pattern del "guardian*" in cui la persona che è sul progetto da più tempo, che è più tecnicamente preparata o che meglio conosce il business tende a lungo andare ad innamorarsi del proprio prodotto (io per primo) e a tappare la crescita del team. Vorrei raccontare di questo tema perché spero di aiutare persone che sono nella stessa situazione a fare un cambiamento comportamentale in modo che possano davvero essere gli artefici della crescita del team. Il talk non è tecnico ma tratta di aspetti umani quali la motivazione, lo stress e la crescita.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract alt' id='stefaniadicristofalo'>
+        <h3>Stefania Di Cristofalo - Come ti cambio l'organizzazione con un Team Agile e un Capo Progetto.</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/ACoAAABD4OUBC7LI7waTmvyyyIeMpKGxqDuOr_w/" target="_blank"><img src="img/speakers/stefaniadicristofalo.jpg" alt="Stefania Di Cristofalo" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Mi sono  occupata per molti anni di metodologie per il software Engineering e modelli di processo per il miglioramento continuo. Sono stata responsabile di progetti di sviluppo software, champion aziendale per la definizione di metodologie per il disegno di architetture software, formatore e responsabile dei servizi di training. Come consulente ho rivestito il ruolo di appraisal team member, formatore e coordinatore di progetti per lo sviluppo di sistemi di processi di management & engineering. Dal 2012 sono impegnata nello sviluppo del mindset agile nei team di sviluppo in ambienti complessi quale il settore bancario e l'ingegneria dei sistemi. Precedenti esperienze: RYLA - Rotary Youth Leadership Award 2014, Roma  “IL Leader Coach"; RYLA 2016, Civitavecchia – “Il Leader Resiliente”; UNIURB 2017, Urbino: L'imprenditore Resiliente”; XP2014 – Roma: “ Organizational Debt, not my Fault!”; Open Agile Day 2017, Napoli: “Agile Team Journey - Scrum Master Guide” 
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Quali possono essere gli impatti su una organizzazione complessa quando  un Team Agile ha la duplice missione di generare valore, realizzando un prodotto di qualità e quella di contribuire a modificare i processi operativi e il modo in cui si fa assicurazione qualità?<br/><br/>
+              Le grandi organizzazioni del settore bancario e dell' ingegneria dei sistemi, dato il numero di funzioni (non lean/agile) e il numero di persone coinvolte, non possono prescindere dal seguire processi operativi definiti che garantiscano il rispetto delle normative di settore. In questo caso, può essere selezionato un team agile la cui mission sia non solo generare valore realizzando un prodotto di qualità ma anche diffondere per contagio il cambiamento nell'organizzazione contribuendo a modificare i processi operativi e il modo in cui si fa assicurazione qualità. In questo modo la cultura si diffonde nell'organizzazione creando terreno fertile alle successive iniziative agili.Quando la creazione di valore per il business dell’organizzazione implica l’esplorazione  di nuove funzionalità, nuove tecnologie   e la conformità a stringenti requisiti di normativa, le funzioni Assicurazione Qualità e Sviluppo vanno a braccetto nel prevenire i rischi e a diffondere l’agilità.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='claudiosaurin'>
+        <h3>Claudio Saurin, Daniela Rinaldi, Gabriele Corletto, Michele Stangherlin - Il fattore umano nello sviluppo Agile delle Macchine</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="staff_member_talk">
+                  <a href="https://www.linkedin.com/in/claudio-saurin-665933/" target="_blank"><img src="img/speakers/claudiosauring.jpg" alt="Claudio Saurin" class="speaker_member_img_small"></a>
                 </div>
-                <p class="page-scroll"> </p>
+              </div>
+              <div class="col-md-6">
+                <div class="staff_member_talk">
+                  <a href="https://www.linkedin.com/in/gabriele-corletto-a7690540/" target="_blank"><img src="img/speakers/gabrielecorletto.jpg" alt="Gabriele Corletto" class="speaker_member_img_small"></a>
+                </div>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="staff_member_talk">
+                  <a href="https://www.linkedin.com/in/daniela-d-rinaldi-22506425/" target="_blank"><img src="img/speakers/danielarinaldi.jpg" alt="Daniela Rinaldi" class="speaker_member_img_small"></a>
+                </div>
+              </div>
+              <div class="col-md-6" style="margin-top: -20px;margin-left: -20px;">
+                <div class="staff_member">
+                  <a href="https://www.linkedin.com/in/michele-stangherlin-212968b4/" target="_blank" >
+                    <img src="img/speakers/michelestangherlin.jpg" alt="Michele Stangherlin" class="speaker_member_img_small" ></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+          <div class="col-md-8 speaker_bio">
+            Claudio Saurin, sono un appassionato di Innovazione Organizzativa e rivesto il ruolo di Direttore dello Sviluppo Prodotto presso la Breton,
+            dove integriamo in modo sinergico le metodologie Agile e Lean con quella classica Gantt-Waterfall e con le comunità di progetto
+            (Project Management 2.0) nello sviluppo di nuovi prodotti hardware.
+            Coordino inoltre in Breton il progetto aziendale, finanziato dal MISE, sulla Smart Factory che prevede
+            l’introduzione di 18 piattaforme informatiche per la digitalizzazione del lavoro di ufficio e di fabbrica ed i progetto sulle Macchine Utensili
+            per l'Industria 4.0.
+            Daniele Rinaldi, Gabriele Corletto e Michele Stangherlin sono miei stretti collaboratori nella mia attività.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Il racconto dei protagonisti dello sviluppo Agile di macchinari industriali “smart”. Come è cambiata l’organizzazione integrando la progettazione agile, con la gestione classica dei materiali, con il montaggio e la validazione agili. I sorprendenti risultati ottenuti sulla qualità del design, sui costi, sui tempi e sul coinvolgimento delle persone.<br/><br/>
+              E’ stato epocale il passaggio da team di prodotto (component team) a team di progetto (functional team), il cambio di ruolo dei precedenti team leader tecnici a stakeholder o a risorse del team. E’ stato importante far rivestire il ruolo del PO al coordinatore dall'ingegneria di vendita come nuova modalità evolutiva del Product Manager  capace finalmente di coinvolgere le vendite nella definizione interattiva dei requisiti di mercato con i Canvas. Il PO che è coinvolto fino alle fasi più hardware del montaggio e della validazione con il team di sviluppo. Le difficoltà affrontate per realizzare team di sviluppo cross funzionali dedicati. E’ stato infine strategico introdurre la figura emergente in azienda dello ScrumMaster senza il quale questo processo di cambiamento non avrebbe potuto avere luogo. Lo sviluppo del design Agile con la necessaria integrazione della gestione materiali classica (MRP) unitamente a logiche a flusso e efficientamento tipiche della lean, hanno richiesto la messa a punto di un processo ibrido. I risultati ottenuti sono stati sorprendenti specialmente dal punto di vista della riduzione costi e della qualità del prodotto ottenuto. I tempi non sono ancora quelli sperati pur essendo migliori di quelli precedenti. Il clima ed i rapporti umani sono decisamente migliorati con un livello di coinvolgimento delle persone senza precedenti. In Breton in questo momento 8 team scrum sviluppano altrettanti prodotti guidati da 3 Product Owner coinvolgendo circa 80 persone.
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section id="keynote" class="content-section text-center" lang="en">
-      <div class="row">
-        <div class="col-lg-5 col-lg-offset-1">
-          <h2>Opening Keynote</h2>
-          <div class="staff_member">
-			<a href="" target="_blank"><img src="img/speakers/andrea_provaglio.jpg" alt="Andrea Provaglio" class="speaker_member_img"></a>
-		  </div>
-          <h3>Andrea provaglio<br/> <em>Managers, Complexity and Agility</em></h3>
+      <div class='abstract alt' id='davideroitero'>
+        <h3>Davide Roitero, Francesca Martinuzzi - Viaggio nel tempo: il coaching dai giorni nostri all’antica Grecia</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/davide-luca-roitero-8a3703125/" target="_blank"><img src="img/speakers/davidelucaroitero.jpg" alt="Davide Roitero" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-2" style="margin-top:-20px;">
+            <div class="staff_member">
+              <a href="https://www.linkedin.com/in/francescamartinuzzi/" target="_blank"><img src="img/speakers/francescamartinuzzi.jpg" alt="Marco Perrando" class="speaker_member_img"></a>
+            </div>
+          </div>
 
-          <p>How is it like for a manager to work in an environment where knowing the past will hardly help foresee the future? An environment where unpredictability and change are, in fact, the only constant? And how does this affect -- and is affected by -- the kind of intellectual work that is the true asset many organizations have, these days, to generate value?
-            In this talk we'll see how living and operating in the 21st century calls for a whole new set of skills for managers and how, most relevantly, calls for a mindset that's slightly different from the one we got used to in past decades.
-            We'll talk about the connection between mindset, complexity and agility; and you'll get some practical advice that can help you operate better in these domains.</p>
+          <div class="col-md-8 speaker_bio">
+            Davide Roitero. 54 anni ben portati. Mi sono appassionato di informatica in tenera età ma mi toccava programmare in assembler sugli Z80
+            perché I personal computer non li aveva ancora inventati nessuno. Segnato da questa triste esperienza, dopo un breve periodo nel mondo delle
+            software house, sono andato a lavorare in banca. Per dare sfogo alla mia sete di avventura ho fondato un
+            birrificio artigianale dove ho imparato che: si possono perdere molti soldi in poco tempo,
+            non si possono fare bene due lavori, se avessi studiato prima Lean Startup sarebbe stato meglio.
+            Il completo gessato d’ordinanza mi sta da dio perché la riga verticale sfina e il mio fisico da Obelix ne risulta valorizzato.
+            Parecchi anni fa mi hanno mandato ad un corso di formazione Agile perché quel giorno ero quello meno occupato.
+            È stato un colpo di fulmine e da allora non ho più smesso. Parlo di Agile e di Tango Argentino (altra mia grande passione)
+            a chiunque incontro, agilizzo anche la signora delle pulizie e faccio il burndown chart dei compiti delle vacanze ai miei figli.
+            Faccio il coach di un centinaio abbondante di persone che, incredibilmente, si fidano di me.
+            A tempo perso produco ottimi gorgonzola e talvolta anche dei brie e dei taleggi.
+            <br/><br/>
 
-          <div id="rans-bio">
-            <p> <b>Andrea Provaglio</b> Agile organizational coach. Andrea assists executives, managers and teams in knoledge-based organizations
-            in implementing better ways of dooing business in 21st century. In over 20 years he worked with multinationals and small companies
-            in three continents. He obtained a U.S. work visa for "extraordinary abilities in sciences"</p>
+            Francesca Martinuzzi
+            46 anni, dicono.
+            Mamma di due quasi-adolescenti <br/>
+            Dopo 17 traslochi, sono agile inside.<br/>
+            Momentaneamente mi sono fermata a Urbino<br/>
+            Senza capelli mi trovavo bellissima<br/>
+            Faccio la mentor di studenti-imprenditori. L'ideatrice e organizzatrice di eventi.
+            La neo-scrum master entusiasta e eternamente dubbiosa.
+            Non sopporto i formaggi.<br/>
+            Sometimes I win, sometimes I learn.
           </div>
         </div>
-        <div class="col-lg-5" id="keynote1">
-          <h2>Closing Keynote</h2>
-            <div class="staff_member"> <a href="https://myPersonalAgility.org" target="_blank"><img src="img/speakers/peter_stevens.jpg" alt="Peter Stevens" class="speaker_member_img"></a>
-		  </div>
-          <h3>Peter Stevens<br/> <em>How to do what matters: From personal satisfaction to professional impact</em></h3>
-          <p>Do you have more things to do than time to do them? Many people do. So which things should you do? The ones that matter. Which ones matter? That is a harder question! This talk explains a simple agile framework to help you figure out and do more that really matters. This talk give answers, shares case studies, and shows how the same simple framework becomes a leadership tool to enable your organization to better identify and achieve its goals.</p>
-          <div id="rans-bio">
-            <p> <b>Peter Stevens</b> is a Certified Scrum Trainer who has been inspiring companies and individuals to transform themselves to a better way of working since 2006. He has taught Scrum to over 2000 people, mostly in Switzerland, Portugal, Italy and India. In 2012 he partnered with Steve Denning and others to host the Stoos Gathering to inspire a rethinking of management. Currently he is working with fellow CST Maria Matarelli on a new book, Personal Agility: Do More That Matters (free download of chapters and other tools as they become available under <a target="_blank" href="http://www.MyPersonalAgility.org">Personal Agility: Do More That Matters.</a> His newest (online) course is “The Personal Agility System: Double Your Impact in 8 weeks”</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="programma" class="content-section text-center">
-      <h2>Programma</h2>
-      <table class='desktop prtbl'>
-        <tr>
-      	<th>&nbsp;</th>
-      	<th>&nbsp;</th>
-      	<th>Sala 1</th>
-      	<th>Sala 2</th>
-      	<th>Sala Workshop</th>
-        </tr>
-
-      	<tr><td>08:30</td><td>09:30</td><td colspan='3' class='prtd_checkin'>Accoglienza / registrazione e caffè di benvenuto</td></tr>
-
-      	<tr><td>09:30</td><td>10:30</td><td colspan='3' class='prtd_sessione'>Keynote: <a href='#keynote'>Andrea Provaglio: <em>Managers, Complexity and Agility</em></a></td></tr>
-
-      	<tr><td>10:30</td><td>10:40</td><td colspan='3' class='prtd_pausa'>Break</td></tr>
-
-      	<tr><td>10:40</td><td>11:15</td>
-      	  <td class='prtd_sessione alt'><a href='#speaker1'><em>Talk 1</em></a><br>Speaker 1</td>
-      	  <td class='prtd_sessione alt'><a href='#speaker2'><em>Talk 2</em></a> <br> Speaker 2</td>
-      	  <td class='prtd_workshop' rowspan='5'><a href='#facilitator1'>Workshop <em>1</em></a> <br>Facilitator 1</td>
-      	</tr>
-
-      	<tr><td>10:15</td><td>10:25</td><td colspan='2' class='prtd_pausa'>Break</td></tr>
-
-      	<tr><td>11:25</td><td>12:00</td>
-      	  <td class='prtd_sessione'><a href='#speaker3'><em>Talk 3</em></a><br>Speaker 3</td>
-      	  <td class='prtd_sessione'><a href='#speaker4'><em>Talk 4</em></a><br>Speaker 4</td>
-      	</tr>
-
-      	<tr><td>12:00</td><td>12:10</td><td colspan='2' class='prtd_pausa'>Break</td></tr>
-
-      	<tr><td>12:10</td><td>12:45</td>
-      	  <td class='prtd_sessione alt'><a href='#speaker5'><em>Talk 5</em></a><br>Speaker 5</td>
-      	  <td class='prtd_sessione alt'><a href='#speakerlt1'>Lightning: <em>LT 1</em></a><br>Speaker LT 1
-      	  <hr> <a href='#speakerlt2'>Lightning: <em>LT 2</em></a> <br>Speaker LT 2</td>
-      	</tr>
-
-      	<tr><td>12:45</td><td>14:00</td><td colspan='3' class='prtd_pausa'>Pranzo & networking</td></tr>
-
-      	<tr><td>14:00</td><td>14:35</td>
-      	  <td class='prtd_sessione'><a href='#speaker6'><em>Talk 6</em></a><br>Speaker 6</td>
-      	  <td class='prtd_sessione'><a href='#speaker7'><em>Talk 7</em></a> <br> Speaker 7</td>
-      	  <td rowspan='5' class='prtd_workshop'><a href='#facilitator2'>Workshop <em>2</em></a> <br>Facilitator 2</td>
-      	</tr>
-
-      	<tr><td>14:35</td><td>14:45</td><td colspan='2' class='prtd_pausa'>Break</td></tr>
-
-      	<tr><td>14:45</td><td>15:20</td>
-      	  <td class='prtd_sessione alt'><a href='#speakerlt3'>Lightning: <em>LT </em></a><br>Speaker LT 3
-      		<hr> <a href='#speakerlt4'>Lightning: <em>LT 4</em></a> <br>Speaker LT 4</td>
-      	  <td class='prtd_sessione alt'><a href='#speaker8'><em>Talk 8</em></a> <br>Speaker 8</td>
-      	</tr>
-
-      	<tr>
-      	  <td>15:20</td><td>15:30</td><td colspan='2' class='prtd_checkin'>Break</td>
-      	</tr>
-
-      	<tr><td>15:30</td><td>16:05</td>
-      	  <td class='prtd_sessione'><a href='#speaker9'><em>Talk 9</em></a><br>Speaker 9</td>
-      	  <td class='prtd_sessione'><a href='#speaker10'><em>Talk 10</em></a><br>Speaker 10</td>
-      	</tr>
-
-      	<tr>
-      	  <td>16:05</td><td>16:15</td><td colspan='3' class='prtd_checkin'>Break</td>
-      	</tr>
-
-      	<tr><td>16:15</td><td>17:15</td><td colspan='3' class='prtd_sessione alt'>Keynote: <a href='#keynote1'>Peter Stevens: <em>How to do what matters: From personal satisfaction to professional impact</em></a></td>
-
-      	<tr><td>17:15</td><td>17:30</td><td colspan='3' class='prtd_checkin'>Chiusura lavori</td></tr>
-      </table>
-
-      <div class="page-scroll">
-        <a href="#iscrizione" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a>
-      </div>
-
-      <div class='row'>
-        <div class='abstracts col-lg-8 col-lg-offset-2'>
-
-          <div class='abstract alt' id='speaker1'>
-            <h3>Talk 1</h3>
-            <h4>Speaker 1</h4>
-            Abstract talk 1
-          </div>
-
-          <div class='abstract' id='speaker2'>
-            <h3>Talk 2</h3>
-            <h4>Speaker 2</h4>
-            Abstract talk 2
-          </div>
-
-          <div class='abstract alt' id='speaker3'>
-            <h3>Talk 3</h3>
-            <h4>Speaker 3</h4>
-            Abstract talk 3
-          </div>
-
-          <div class='abstract' id='speaker4'>
-            <h3>Talk 4</h3>
-            <h4>Speaker 4</h4>
-            Abstract talk 4
-          </div>
-
-          <div class='abstract alt' id='speaker5'>
-            <h3>Talk 5</h3>
-            <h4>Speaker 5</h4>
-            Abstract talk 5
-          </div>
-
-          <div class='abstract' id='speakerlt1'>
-            <h3>Talk Lightning 1</h3>
-            <h4>Speaker LT 1</h4>
-            Abstract LT 1
-          </div>
-
-          <div class='abstract alt' id='speakerlt2'>
-            <h3>Talk Lightning 2</h3>
-            <h4>Speaker LT 2</h4>
-            Abstract LT 2
-          </div>
-
-          <div class='abstract' id='facilitator1'>
-            <h3>Workshop 1</h3>
-            <h4>Facilitator 1</h4>
-            Abstract Workshop 1
-          </div>
-
-          <div class='abstract alt' id='speaker6'>
-            <h3>Talk 6</h3>
-            <h4>Speaker 6</h4>
-            Abstract talk 6
-          </div>
-
-          <div class='abstract' id='speaker7'>
-            <h3>Talk 7</h3>
-            <h4>Speaker 7</h4>
-            Abstract talk 7
-          </div>
-
-          <div class='abstract alt' id='speakerlt3'>
-            <h3>Talk Lightning 3</h3>
-            <h4>Speaker LT 3</h4>
-            Abstract LT 3
-          </div>
-
-          <div class='abstract' id='speakerlt4'>
-            <h3>Talk Lightning 4</h3>
-            <h4>Speaker LT 4</h4>
-            Abstract LT 4
-          </div>
-
-          <div class='abstract alt' id='speaker8'>
-            <h3>Talk 8</h3>
-            <h4>Speaker 8</h4>
-            Abstract talk 8
-          </div>
-
-          <div class='abstract' id='speaker9'>
-            <h3>Talk 9</h3>
-            <h4>Speaker 9</h4>
-            Abstract talk 9
-          </div>
-
-          <div class='abstract alt' id='speaker10'>
-            <h3>Talk 10</h3>
-            <h4>Speaker 10</h4>
-            Abstract talk 10
-          </div>
-
-          <div class='abstract' id='facilitator2'>
-            <h3>Workshop 2</h3>
-            <h4>Facilitator 2</h4>
-            Abstract Workshop 2
+        <div class="row" style="vertical-align: middle; margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">“Quei tuoi amici dell’Agile, sono simpatici ma quando parlano non capisco una parola. Ho studiato iconologia, leggo libri lunghi e vecchissimi, amo Platone Socrate e Apuleio… ma non basta! Camminiamo, insegna anche a me, spiegami il senso”. Intuivo che il percorso che ci accingevamo ad intraprendere aveva origini antiche.<br/><br/>
+              Pare che il moderno coaching nasca con John Withmore negli anni ‘80. Da allora, attraverso tanti libri e corsi, partendo dal mondo dello sport, ha contaminato anche il mondo Agile. Ma a uno dei miei team, il meno tipico e il più indisciplinato, questo non bastava. Qual è il significato, quale il senso? Ascoltavo e cercavo risposte, ma nessuna bastava mai, anzi suscitava sempre nuove obiezioni, nuove domande. Risuonavano nella mia mente echi lontani e poco a poco si componeva un disegno, ancora nebuloso: cominciavo a intuire che il lavoro con i team nasceva lontano, e da lontano doveva ripartire per trovare il suo centro. Il nostro viaggio a ritroso inizia con questa domanda: “Chi è coach e quale è il suo compito?”. Il formatore insegna, il consulente mette a disposizione la sua esperienza, il mentore aiuta ad applicare nella tua realtà qualcosa di innovativo. Il Coach non ha nulla da insegnare a nessuno ma aiuta ciascuno a comprendere ed esprimere al meglio le proprie potenzialità. Di domanda in domanda, siamo arrivati all’Atene di Pericle; e nella maieutica socratica abbiamo trovato parecchie analogie con le moderne metodologie di coaching. Oggi vorremmo raccontarvi questo viaggio, con un “back to the coaching basics” lungo circa 2500 anni, in cui illustrare le similitudini che abbiamo riscontrato, raccontando alcune delle comuni pratiche di coaching e raffrontandole con quelle di Socrate, tratte da alcuni brevi passi del Teeteto, dialogo -trascritto da Platone- rapporto tra Socrate e il suo discepolo. In 30 minuti, non vi preoccupate!
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- FINE PROGRAMMA -->
 
-	<!-- ISCRIZIONI -->
-    <section id="iscrizione" class="content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+      <div class='abstract' id='alessandroviolini'>
+        <h3>Alessandro Violini - Il collante strategico durante lo sviluppo: continuous discovery</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/alessandroviolini" target="_blank"><img src="img/speakers/alessandroviolini.jpg" alt="Alessandro Violini" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Lavoro in extrategy dal 2002, azienda migrata all'agile nel 2008. Interaction Designer e Interface Developer ho portato il contributo come speaker in altre conferenze sia con temi tecnici che metodologici.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">La continuous discovery come metodo per validare le nostre idee ed essere più efficaci e veloci nella track di sviluppo.<br/><br/>
+              Lo sviluppo di un software è orientato al raggiungimento di alcuni obiettivi. Nel team di sviluppo è sempre più fondamentale avere chiaro lo scenario completo della necessità del software che si sta sviluppando. Avere un metodo che durante lo sviluppo ci permette di mantiene l'allineamento con le necessità imprenditoriali e degli utenti finali abilita tutto il team a prendere micro e macro decisioni giuste e lavorare con meno spreco.
+            </div>
+          </div>
+        </div>
+      </div>
 
-          <h2>Iscrizione</h2>
-          <div class="well box-eventbrite">
-            <p>La partecipazione è gratuita e aperta a tutti.
-            </p>
-            <p ><a
+      <div class='abstract alt' id='nicolasfondrini'>
+        <h3>Nicola Sfondrini - Agile organization transformation in a big enterprise</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/nicolasfondrini" target="_blank"><img src="img/speakers/nicolasfondrini.jpg" alt="Nicola Sfondrini" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Executive in Business Integration Partners e responsabile dei competence center Agile e Cloud Computing. Impegnato in progetti Cloud e Agile in Europa e Medio Oriente, applica metodologie Scrum e Kanban in progetti IT e ne declina i principi ridisegnando le organizzazioni. Membro del board di Cloud Security Alliance Italy, ha partecipato a svariate conferenze organizzate da Assintel, Cloud Security Alliance e GCSEC.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Agile è ormai largamente adottato per lo sviluppo software ma questa metodologia, se correttamente declinata, può profondamente modificare l'intera struttura di un CIO e facilitare l'introduzione di una logica "by products". Il talk fornirà precise linee guida, declinati su reali casi di successo, per facilitare l'azione di Agile su larga scala.<br/><br/>
+              Agile come modello di sviluppo software. Declinazione di Agile nella struttura di un CIO. Come Agile impatta l'organizzazione e i tool aziendali. Quali skill sono richiesti per adottare Agile su larga scala. Roadmap di adozione delle metodologie Agile (incluso la parte di operation). Esempi e casi di successo gestiti direttamente.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='ferdinandosantacroce'>
+        <h3>Ferdinando Santacroce - Object Calisthenics</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/ferdinandosantacroce" target="_blank"><img src="img/speakers/ferdinandosantacroce.jpg" alt="Ferdinando Santacroce" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Ferdinando è una persona alla ricerca del modo migliore per sviluppare,  software ma non solo. Attualmente lavora per Intré, azienda che da quasi quattro lustri aiuta industrie grandi e grandissime ad affrontare le sfide del mercato. In passato è stato insegnante di scuola superiore, ha condotto corsi di formazione e ha pubblicato un libro per Packt, “Git Essentials”. La sua curiosità lo ha spinto ad affacciarsi al mondo dell’agilità alcuni anni or sono; dai primi timidi passi molta strada è stata fatta, ed ora partecipa attivamente all’organizzazione degli Italian Agile Days.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Il lavoro dello sviluppatore è simile a quello di un atleta. Per continuare ad offrire prestazioni di qualità è necessario tenersi in allenamento (o iniziare a farlo, per chi non fosse ancora avvezzo...). In questo workshop impareremo una serie di esercizi "fondamentali" al fine di stimolare la nostra muscolatura Object Oriented.<br/><br/>
+              In questo workshop si scrive codice per il 90% del tempo. Serve un'aula attrezzata per contenere max 20 persone che lavoreranno a coppie. Durante il workshop svilupperemo una semplice applicazione (ad es. TicTacToe, o "tris" come lo chiamiamo in Italia, ma devo ancora decidere) cercando di rispettare le 9 regole dell'Object Calisthenics così come proposto da Jeff Bay nel libro "The ThoughtWorks Anthology". Le regole obbligano i partecipanti ad utilizzare costrutti tipici della programmazione ad oggetti, insieme ad una serie di "buone norme" che rendono il codice facilmente comprensibile, manutenibile ed estendibile. Credo faremo 2 sessioni da 30 minuti, lasciando tempo per la spiegazione iniziale e per fare un po' di debriefing alla fine. Farò ruotare le coppie ogni 15 minuti, ed al termine della prima sessione farò creare nuove coppie per verificare se il codice scritto da altri risulti comprensibile ad occhi nuovi. Sul linguaggio non pongo limiti; anche chi dovesse eseguire l'esercizio con un linguaggio con cui non ha dimestichezza credo possa coglierne il messaggio.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract alt' id='alessiodeltoro'>
+        <h3>Alessio Del Toro - Il Change Management nelle transizioni Agile</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/alessiodeltoro" target="_blank"><img src="img/speakers/alessiodeltoro.jpg" alt="Alessio Del Toro" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Sono Agile Coach, Prosci Change Management Certified Practitioner e SAFe® 4 Program Consultant presso inspearit dove sono arrivato dopo aver ricoperto diversi ruoli, tra cui anche quello di SM e di PO. Oltre che di Agile sono appassionato di coaching verso cui mi sono mosso diventando Master Practitioner in PNL e ACC della ICF.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Adottare un framework di Agile Scaling come SAFe, LeSS o Nexus comporta cambiare in modo significativo l'organizzazione e questo cambiamento deve essere gestito con un piano di Change Management adeguato. Scopriamo come farlo combinando ADKAR e Lean Change, due dei modelli di Change Management più utilizzati.<br/><br/>
+              In questo speech voglio mettere in risalto l'importanza di adottare un modello di Change Management quando ci muoviamo verso un framework di Agile Scaling. Il cambiamento richiesto è importante e spesso si sottovaluta l'impatto sull'organizzazione cosa che può portare verso un fallimento della transizione. Un piano iterativo di comunicazione, sponsorship, coaching, training e resistance management possono aiutare a migliorare nelle 5 aree di ADKAR e rendere la transizione un successo. Per rendere il tutto più chiaro utilizzerò alcuni esempi reali di piano.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='giulioroggero'>
+        <h3>Giulio Roggero - Da Spaghetti API a Piattaforma Digitale</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/giulioroggero" target="_blank"><img src="img/speakers/giulioroggero.jpg" alt="Giulio Roggero" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Giulio Roggero, imprenditore. Si occupa di aiutare i clienti a tradurre le loro strategie di business in piattaforme digitali. Ha fondato Mia srl e Agile Reloaded Srl. Oggi ricopre il ruolo di CTO di Mia-Platform.eu, è Amministratore Delegato di Agile Reloaded e Strategic Partner di Intré.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">La multicanalità è il contesto del Cliente digitale di oggi e le spaghetti API stanno prendendo il sopravvento. Il Business e l'IT sono in prima linea a garantire time-to-market e qualità mettendo sotto stress la struttura organizzativa e le tecnologie. Organizzarsi in modo agile non basta, serve anche una strategia chiara di piattaforma!<br/><br/>
+              La presentazione introduce il problema che oggi le aziende hanno a livello IT: tante applicazioni sparse che accedono ai sistemi core in modo non organico (spaghetti API). Questo comporta: rallentamento del time-to-market, attriti nelle relazioni e prodotti poco coerenti tra di loro. Durante una trasformazione digitale si pensa in primo luogo a riorganizzare persone in modo da snellire i processi. Questo è di sicuro aiuto ma da solo non è sufficiente: se i sistemi sui quali lavorano i team non evolvono i team possono essere agili quanto vogliono ma non riescono a tenere il passo con il mercato. La zavorra del debito tecnico di codice e API a spaghetti non è facilmente ripagabile. E’ necessario cambiare le strategie architetturali e creare un sistema che si possa rifare a pezzi e far evolvere. Vedremo come una strategia di Piattaforma Digitale possa essere a supporto per la trasformazione Agile.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract alt' id='emanuelepassera'>
+        <h3>Emanuele Passera - Agile Projects and Lazy Contracts</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/emanuelepassera" target="_blank"><img src="img/speakers/emanuelepassera.jpg" alt="Emanuele Passera" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Laureato in Ingegneria dele Telecomunicazioni presso il Politecnico di Milano nel 2003, inizia la carriera professionale come membro del team R&amp;D di TRE ALTAMIRA, leader mondiale  nella fornitura di prodotti/servizi per il monitoraggio del territorio tramite piattaforma SAR satellitari. Si appassiona dopo pochi anni all'ingegneria del software e collabora all'ingegnerizzazione di nuovi prodotti e servizi in ambito dell'interferometria SAR differenziale. Nel 2011 approda al project management e continua la sua collaborazione con TRE ALTAMIRA come project manager nell'ambito dell'innovazione industriale, gestendo progetti mirati alla creazione di nuovi prodotti e nuovi processi. Nel 2012 ottiene la certificazione PMP, nel 2013 la certificazione Prince2 Practitioner e nel 2016 la certificazione PMI-ACP. Si qualifica nel 2017 come auditor di prime e seconde parti per sistemi di gestione qualità. Gestisce il blog profit www.pmcrumbs.com no dedicato alla gestione di progetti. Collabora regolarmente con la rivista "Il Project Manager" della Franco Angeli editore, partecipa nel 2015 come keynote speaker all'Agile for Innovation di Milano e come speaker al PMexpo di Roma nel 2016. Appassionato di fotografia, nuove tecnologie e cripto-valute.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">La gestione dei progetti si muove più velocemente della giurisprudenza. Come gestire un progetto con metodologie Agile, essendo legati a contrattualistiche basate unicamente sul completamento di uno scope stimato up-front?<br/><br/>
+              Le metodologie Agile o Lean sono ad oggi riconosciute come fondamentali per la gestione di progetti con alto contenuto di incertezza, eppure la contrattualistica non tiene il passo della trasformazione dei processi industriali. Ci si trova quindi imprigionati in una dicotomia forte tra la necessità di una gestione dello scope run time, beneficiando dei feedback dell'utente finale e di una stima di budget upfront che male si concilia con esigenze sopraggiunte in corso di opera.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='felicepescatore'>
+        <h3>Felice Pescatore, Vincent Thavonekham - Agile meets IoT</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/felice-pescatore-50a41a22/" target="_blank">
+                <img src="img/speakers/felicepescatore.jpg" alt="Felice Pescatore" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/thavo/" target="_blank">
+                <img src="img/speakers/vincentthavonekham.jpg" alt="Vincent Thavonekham" class="speaker_member_img"></a>
+            </div>
+          </div>
+
+          <div class="col-md-8 speaker_bio">
+            Felice Pescatore: un Agile Business Coach e Microsoft MVP, mi confronto quotidianamente con progetti complessi utilizzando
+            approcci Agile/Lean/DevOps per raggiungerne gli obiettivi di business. Ingegnere Informatico, con un Master in
+            Tecnologie e Gestione del software, la mia attività si concentra nel supportare le aziende in un percorso di trasformazione che
+            le renda maggiormente dinamiche e orientate al Valore, creando una a spiccata cultura Lean oriented.
+            Lead dei progetti open AgileIoT.org ed Eclipse Duttile, che cercano di dare un approccio disciplinato alla creazione di soluzioni
+            IoT massive di mercato, grazie a team multidisciplinari impegnati giornalmente nella creazione di soluzioni consumabili.
+            Presidente e co-fondatore dell’Agile Community Campania, sono speaker (e co-organizzatore) alle più importanti
+            conferenze Agile e Microsoft italiane e a diverse Europee.<br/><br/>
+            Vincent Thavonekham: Hi, I’m Vincent. I’m a Microsoft Regional Director working for VISEO and living in Lyon, France.
+
+            I am a fan of technology, Cloud, Agility and innovation. I’m also interested in hiking/travelling, DIY, NPL and Montessori ! You can read my blog with a click on the button above.
+
+            As a living, I am helping companies transforming their businesses by using the Cloud from Executive level, down to the architecture/code.
+
+            I am expert on Azure (awarded MVP Azure), on DevOps and Agility. As such, I write articles, and often get invited to many conferences to share my insights and expertise, in France or abroad (UK, Switzerland).
+
+            I am the co-founder of the Azure User Group France (AZUG FR), and locally, I am on the board of the Microsoft User Group Lyon (MUG Lyon).
+
+            Don't ask me questions about these topics unless you have many hours in front of you !
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">In this talk we will introduce AgileIoT, the disciplined Agile approach dedicated to the world of the Internet of Things, and Eclipse Duttile, a related open source framework.<br/><br/>
+              In this talk we will introduce AgileIoT, the disciplined Agile approach dedicated to the world of the Internet of Things. AgileIoT was born from the awareness that teams cannot address the governance and development of an industrial IoT solution borrowing approaches from the world of software, hardware or cloud, and considering them disjointed. We need to think a holistic way the governance of IoT Product creation in function of the two fundamental elements of them: Smart Things ("T") connected and managed from Cloud ("I", the Internet). Who will attend to the talk will bring to home deep information about the main aspects to the challenges related to the creation of a marketable and consumable IoT massive solution, starting from the IoT Production dilemma and the fundamentals 8 bobble-aspects that must be validated for overall sustainability of the solution.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract alt' id='stefanoporro'>
+        <h3>Stefano Porro - L'effetto Dunning-Kruger: sfruttarlo a nostro vantaggio con Agile</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/stefanoporro81" target="_blank"><img src="img/speakers/stefanoporro.png" alt="Stefano Porro" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Stefano Porro, nato a Roma nell'81 e informatico dal 2000. Nel 2006 incontra il mondo dello sviluppo Agile e se ne innamora perdutamente. Nel 2014 diventa uno Scrum Master e Product Owner certificato della ScrumAlliance. Scrive articoli su Linkedin Pulse e sul sito AgileKarma.
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">We don't know what we don't know: come sfruttare l'effetto Dunning-Kruger in uno Scrum Team<br/><br/>
+              L'effetto Dunning-Kruger è quella situazione in cui una persona crede di essere molto preparata quando in realtà, purtroppo, non lo è. Nei team tradizionali questo può portare a tanti problemi e a una stagnazione nello stage di Storming del team. Ma con Scrum, e attraverso una buona comunicazione dello Scrum Master, questo effetto può diventare un'arma vincente per superare brillantemente la fase di Storming e avviarci a vele spiegate verso il Performing.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract' id='deborahghisolfi'>
+        <h3>Deborah Ghisolfi - Il marketing ha bisogno di essere Agile</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/deborahghisolfi" target="_blank"><img src="img/speakers/deborahghisolfi.png" alt="Deborah Ghisolfi" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-10 speaker_bio">
+            Ho presentato nel 2016 a Venezia i primi accenni di Agile Marketing per #IAD16 e poi ne ho pian piano siluppato le competenze pratiche e ne parlerò a Treno il 10 Novembre 2017 alla Fondazione Kessler. Mi piacerebbe portare un caso pratico ( come farò a Trento) raccontando metodologia, punti di frizione e come superarli. Prifilo linkedin https://www.linkedin.com/in/deborahghisolfi/
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Definire strategie di web marketing è complesso ed è l'Agile Marketing che ci viene in aiuto per rendere trasparenti e misurabili gli obiettivi creando gruppi di lavoro coesi ed efficienti. Agile marketing è diventato uno strumento di lavoro a cui non rinuncio più quando faccio consulenza.<br/><br/>
+              Agile marketing è la risposta alla confusione, allo spreco di energie e alla difficoltà di misurazione.Cosa accade di solito al team Marketing? Si lavora con la direzione per impostare la/le campagne marketing dell’azienda. Si definiscono il budget annuale,  il format, i canali di comunicazione su cui posizionarsi, si calendarizzano le attività dell’anno e poi … panico! Chi fa cosa? Siamo già in ritardo. Il fornitore non ha tempo, i colleghi che devono creare le pagine del sito hanno altro da fare, i colleghi dell’infrastruttura sono impegnati nelle attività di disaster recovery e sorridono scuotendo la testa quando il marketing parla. La bacchetta magica? Non esiste ma L’agile marketing aiuta parecchio.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='abstract alt' id='andreatorinorodriguez'>
+        <h3>Andrea Torino Rodriguez, Marco Perrando, Valentina Pieroni - Analisi Transazionale, un nuovo strumento per agilisti</h3>
+        <div class="row" style="vertical-align: middle;">
+          <div class="col-md-2">
+            <div class="staff_member_talk">
+              <a href="https://www.linkedin.com/in/andrearodriguez" target="_blank"><img src="img/speakers/andreatorinorodriguez.png" alt="Andrea Torino Rodriguez" class="speaker_member_img"></a>
+            </div>
+          </div>
+
+          <div class="col-md-2" style="margin-top: -20px;">
+            <div class="staff_member">
+              <a href="https://www.linkedin.com/in/marcoperrando" target="_blank"><img src="img/speakers/marcoperrando.jpg" alt="Marco Perrando" class="speaker_member_img"></a>
+            </div>
+          </div>
+          <div class="col-md-2" style="margin-top: -20px;">
+            <div class="staff_member">
+              <a href="#andreatorinorodriguez" target="_blank"><img src="img/speakers/valentinapieroni.jpg" alt="Valentina Pieroni" class="speaker_member_img"></a>
+            </div>
+          </div>
+
+
+          <div class="col-md-5 col-lg-offset-1 speaker_bio">
+            Andrea è un Agile Coach and Trainer, Software Engineer particolarmente interessato al pensiero,
+            applicazione e studio delle discipline e metodologie Lean/Agile.
+            Con oltre 20 anni di esperienza in progettazione e sviluppo software, ha abbracciato il mondo Agile sottoscrivendo il Manifesto nel 2003.<br/><br/>
+            Valentina Pieroni:
+            Dopo dieci anni di lavoro in ambito educativo e sociale dal 2009 lavoro anche con l’Analisi Transazionale. Nel 2013 conseguo il master in Analisi Transazionale ad orientamento Psicosociale, con una tesi sulle dinamiche del gruppo.
+            Conduco gruppi per per il cambiamento, la consapevolezza di sé e l’empowerment del singolo e delle strutture organizzative operanti in contesti sociali. Dal 2015 sono docente e formatrice in corsi per l’aggiornamento e la formazione presso associazioni, cooperative e categorie di libera professione.
+            <br/><br/>
+            Marco Perrando:
+            Dopo un percorso accademico conclusosi nel 2001, lavoro nell’ambito ICT, principalmente nel campo della produzione del software. Sono alla continua ricerca di come possiamo scrivere software migliore ispirandomi ai grandi del settore, studiando teoria e provando metodologie innovative.
+            Dai primi anni 2000 ho aderito agli ideali del manifesto Agile e da allora cerco di trovare i modi più adatti per applicarli e farli applicare ai professionisti del settore che sono insoddisfatti dell'approccio che usano.
+
+          </div>
+        </div>
+        <div class="row" style="vertical-align: middle;margin-top: 10px;">
+          <div class="col-lg-12">
+            <div class="speaker_abstract">Perché anche agile può non funzionare? Come agilisti abbiamo imparato ad aggiungere alla nostra cassetta degli attrezzi vari strumenti e soluzioni: valori agili, pair programming, iterazioni, metodologie, ecc. Per dare una risposta a questa domanda, presenteremo un nuovo strumento da aggiungere al nostro repertorio.<br/><br/>
+              L’idea alla base di agile è che le persone siano professionisti in grado di produrre secondo le proprie capacità tecniche, ma anche individui con propri sentimenti, comportamenti e singolarità. Agile tiene conto della soggettività degli individui, enfatizzando gli aspetti di lavoro collaborativo; tuttavia spesso gli aspetti emotivi, le aspettative implicite, le implicazioni relazionali e le conseguenti dinamiche di gruppo, vengono trattati solo superficialmente o tralasciando aspetti fondamentali. Riconoscere e gestire questi aspetti, complementari alle capacità tecniche, è fondamentale al fine di creare un reale processo di empowerment di gruppo, minimizzando così l’alto rischio di fallimento. Agile ha fondato le sue radici sull’incontro di ambiti diversi da quelli della produzione del software, che lo hanno portato dove è oggi. È arrivato il momento di stringere una nuova alleanza, questa volta con una materia umanistica, l’analisi transazionale (AT), una teoria psicologica della personalità e della comunicazione. Riteniamo che tra più di 500 orientamenti psicologici l’AT sia quello che meglio si sposa con il nostro obiettivo per tre ragioni: è alla base delle teorie sul lavoro di gruppo, prende in considerazione l’uomo nella sua totalità ed è quella che maggiormente invita alla sua comprensione e al suo utilizzo anche i non addetti ai lavori. Il workshop che proponiamo, pensato per un minimo 10 di e un massimo 20 di persone, ha l’obiettivo di fornire ai partecipanti uno spunto teorico e un’immediata idea delle applicazioni pratiche dell’AT all’interno di dinamiche di gruppo, applicabili sia in ambito di formazione del team agile sia all’interno di un team già operativo.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FINE PROGRAMMA -->
+
+<!-- ISCRIZIONI -->
+<section id="iscrizione" class="content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+
+      <h2>Iscrizione</h2>
+      <div class="well box-eventbrite">
+        <p>La partecipazione è gratuita e aperta a tutti.
+        </p>
+        <p ><a
                 class="btn btn-default btn-lg btn-iscriviti"
                 href='https://tickets.agilemovement.it/event/tac2018/' target="_blank">Iscriviti</a>
-            </p>
-          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="page-scroll" style="margin-top: 50px"> <a href="#sponsor" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
+</section>
+
+<!-- SPONSOR -->
+<section id="sponsor" class="content-section text-center">
+  <div class="row">
+    <div class="sponsor-list col-lg-8 col-lg-offset-2">
+      <h2>Sponsor</h2>
+      <p><b>Torino Agile Conference 2018</b> è un evento interamente no-profit organizzato da <a href="http://www.agile.to.it">Agile Community Torino</a> nell'alveo
+        degli eventi <a href='http://agileday.it'>Italian&nbsp;Agile&nbsp;Movement</a> in collaborazione con Torino Wireless e grazie al supporto e l'amicizia dei nostri sponsor.
+      </p>
+
+      <h4 style="font-weight: bold"> In collaborazione con </h4>
+      <p>
+        <a href="https://torinowireless.it" target="_blank">
+          <img width="240"  alt="Torino wireless" src="img/sponsor/torinowireless.png" />
+        </a>
+      </p>
+      <br/>
+      <h4 style="font-weight: bold"> <span class="badge badge-light" style="background-color: silver;font-size: larger;">Sponsor Platinum</span> </h4>
+      <div class="row" >
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="col-md-4" style="margin-top:1em;">
+          <a href="http://synesthesia.it" target="_blank">
+            <img width="240"  alt="Synesthesia" src="img/sponsor/synesthesia.png" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="http://10100.to" target="_blank">
+            <img width="240"  alt="10100" src="img/sponsor/10100.png" />
+          </a>
+        </div>
+        <div class="col-md-2" style="margin-top:2em;">
+
+        </div>
+
+      </div>
+      <br/><br/>
+      <h4 style="font-weight: bold">  <span class="badge badge-light" style="background-color: gold;font-size: larger;">Sponsor Gold</span></h4>
+      <div class="row" >
+        <div class="col-md-4">
+          <a href="http://www.agilereloaded.it" target="_blank">
+            <img width="180"  alt="Agile Reloaded" src="img/sponsor/agilereloaded.png" />
+          </a>
+        </div>
+        <div class="col-md-4" style="margin-top:2em;">
+          <a href="http://www.avanscoperta.it" target="_blank">
+            <img width="180"  alt="Avanscoperta" src="img/sponsor/avanscoperta.png" />
+          </a>
+        </div>
+        <div class="col-md-4" style="margin-top:2em;">
+          <a href="https://www.xpeppers.com" target="_blank">
+            <img width="180"  alt="XPeppers" src="img/sponsor/xpeppers.png" />
+          </a>
         </div>
       </div>
-      <div class="page-scroll" style="margin-top: 50px"> <a href="#sponsor" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
-    </section>
-	
-	<!-- SPONSOR -->
-    <section id="sponsor" class="content-section text-center">
+      <br/><br/>
       <div class="row">
-        <div class="sponsor-list col-lg-8 col-lg-offset-2">
-          <h2>Sponsor</h2>
-          <p><b>Torino Agile Conference 2018</b> è un evento interamente no-profit organizzato da <a href="http://www.agile.to.it">Agile Community Torino</a> nell'alveo
-            degli eventi <a href='http://agileday.it'>Italian&nbsp;Agile&nbsp;Movement</a> in collaborazione con Torino Wireless e grazie al supporto e l'amicizia dei nostri sponsor.
-          </p>
-
-          <h4 style="font-weight: bold"> In collaborazione con </h4>
-          <p>
-            <a href="https://torinowireless.it" target="_blank">
-              <img width="200"  alt="Torino wireless" src="img/sponsor/torinowireless.png" />
-            </a>
-          </p>
-		  <br/>
-          <h4 style="font-weight: bold"> <span class="badge badge-light" style="background-color: silver;font-size: larger;">Sponsor Platinum</span> </h4>
-          <div class="row" >
-            <div class="col-md-2">
-
-            </div>
-
-            <div class="col-md-4" style="margin-top:1em;">
-              <a href="http://synesthesia.it" target="_blank">
-                <img width="220"  alt="Synesthesia" src="img/sponsor/synesthesia.png" />
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="http://10100.to" target="_blank">
-                <img width="220"  alt="10100" src="img/sponsor/10100.png" />
-              </a>
-            </div>
-            <div class="col-md-2" style="margin-top:2em;">
-
-            </div>
-
-         </div>
-          <br/><br/>
-          <h4 style="font-weight: bold">  <span class="badge badge-light" style="background-color: gold;font-size: larger;">Sponsor Gold</span></h4>
-          <div class="row" >
-            <div class="col-md-4">
-              <a href="http://www.agilereloaded.it" target="_blank">
-                <img width="150"  alt="Agile Reloaded" src="img/sponsor/agilereloaded.png" />
-              </a>
-            </div>
-            <div class="col-md-4" style="margin-top:2em;">
-              <a href="http://www.avanscoperta.it" target="_blank">
-                <img width="150"  alt="Avanscoperta" src="img/sponsor/avanscoperta.png" />
-              </a>
-            </div>
-            <div class="col-md-4" style="margin-top:2em;">
-              <a href="https://www.xpeppers.com" target="_blank">
-                <img width="150"  alt="XPeppers" src="img/sponsor/xpeppers.png" />
-              </a>
-            </div>
-          </div>
-		 <br/><br/>
-          <div class="row">
-            <div class="col-lg-12">
-              <p><a class="btn btn-default btn-lg btn-iscriviti" href='https://goo.gl/forms/dw4F6bzyIiRXoDR52' target="_blank">Voglio essere tra gli sponsor</a> </p>
-            </div>
-          </div>
+        <div class="col-lg-12">
+          <p><a class="btn btn-default btn-lg btn-iscriviti" href='https://goo.gl/forms/dw4F6bzyIiRXoDR52' target="_blank">Voglio essere tra gli sponsor</a> </p>
         </div>
       </div>
-      <div class="page-scroll" style="margin-top: 20px"> <a href="#location" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
-    </section>
-	
-	<!-- LOCATION -->
-    <section id="location" class="content-section text-center">
-      <div class="row">
-        <div class="container">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Location</h2>
-            <ul class="list-inline">
-              <li> <img src="img/sponsor/Toolboxreception.jpg" width="180" style="vertical-align: inherit" > </li>
-              <li>
-                <p style="text-align: left"> <a href="http://www.toolboxoffice.it">Toolbox</a> <br>
-                  Via Agostino da Montefeltro 2 <br>
-                  10134 Torino </p>
-              </li>
-            </ul>
+    </div>
+  </div>
+  <div class="page-scroll" style="margin-top: 20px"> <a href="#location" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
+</section>
 
-          </div>
-        </div>
-      </div>
-      <div class="page-scroll" style="margin-top: 50px"> <a href="#cfs" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
-    </section>
-	
-	<!-- CALL FOR SESSION -->
-    <section id="cfs" class="content-section text-center">
-      <div class="row">
-        <div class="well box-eventbrite">
-          <br/>
-          <h2>Call For Sessions</h2>
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <p>La call for session è chiusa. Abbiamo ricevuto oltre 50 proposte. Grazie a tutti!
-              </p>
-              <p>A breve pubblicheremo il programma completo
-              </p>
-              <!--p ><a
-                      class="btn btn-default btn-lg btn-iscriviti"
-                      href='https://goo.gl/forms/ujOr48XWiTIRgMGJ2' target="_blank">Proponi la tua candidatura</a>
-              </p-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="page-scroll" > <a href="#staff" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
-    </section>
+<!-- LOCATION -->
+<section id="location" class="content-section text-center">
+  <div class="row">
+    <div class="container">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Location</h2>
+        <ul class="list-inline">
+          <li> <img src="img/sponsor/Toolboxreception.jpg" width="180" style="vertical-align: inherit" > </li>
+          <li>
+            <p style="text-align: left"> <a href="http://www.toolboxoffice.it">Toolbox</a> <br>
+              Via Agostino da Montefeltro 2 <br>
+              10134 Torino </p>
+          </li>
+        </ul>
 
-	<!-- STAFF -->
-    <section id="staff" class="content-section text-center">
+      </div>
+    </div>
+  </div>
+  <div class="page-scroll" style="margin-top: 50px"> <a href="#cfs" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
+</section>
+
+<!-- CALL FOR SESSION -->
+<section id="cfs" class="content-section text-center">
+  <div class="row">
+    <div class="well box-eventbrite">
+      <br/>
+      <h2>Call For Sessions</h2>
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <h2>L'evento è organizzato da <br/><a href="http://www.agile.to.it">Agile Community Torino</a> e Italian&nbsp;Agile&nbsp;Movement</h2>
+          <p>La call for session è chiusa. Abbiamo ricevuto oltre 50 proposte. Grazie a tutti!
+          </p>
+          <p>A breve pubblicheremo il programma completo
+          </p>
+          <!--p ><a
+                  class="btn btn-default btn-lg btn-iscriviti"
+                  href='https://goo.gl/forms/ujOr48XWiTIRgMGJ2' target="_blank">Proponi la tua candidatura</a>
+          </p-->
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-2 col-md-offset-2">
-          <div>
-            <div class="staff_member">
-              <a href="https://www.linkedin.com/in/lucabergero/" target="_blank"> <img src="img/staff/lucabergero.jpg" alt="Luca Bergero" class="staff_member_img">
-			</div>
-            <div>
-              <a href="https://www.linkedin.com/in/lucabergero/" target="_blank">Luca Bergero</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div>
-            <div class="staff_member">
-              <a href="https://www.linkedin.com/in/pdecandia/" target="_blank"><img src="img/staff/pinodecandia.png" alt="Pino Decandia" class="staff_member_img"></a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/pdecandia/" target="_blank">Pino Decandia</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div>
-            <div class="staff_member">
-              <a href="https://www.linkedin.com/in/pleinad/" target="_blank"><img src="img/staff/danielpalmisano.jpg" alt="Daniel Palmisano" class="staff_member_img"></a>
-			</div>
-            <div>
-			  <a href="https://www.linkedin.com/in/pleinad/" target="_blank">Daniel Palmisano</a>
-			</div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div>
-            <div class="staff_member">
-              <a href="https://www.linkedin.com/in/marcosaccenti/" target="_blank"> <img src="img/staff/marcosaccenti.jpg" alt="Marco Saccenti" class="staff_member_img"></a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/marcosaccenti/" target="_blank">Marco Saccenti</a>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+  </div>
+  <div class="page-scroll" > <a href="#staff" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
+</section>
 
-    <div class="page-scroll" style="margin-top: 50px"> <a href="#staytuned" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
-    </section>
-	
-	<!-- STAY TUNED -->
-    <section id="staytuned" class="content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-		  <p></p><p></p><p></p>
-          <h2>Stay tuned!</h2>
-          <ul class="list-inline banner-social-buttons">
-            <li> <a href="https://twitter.com/AgileTorinoConf" target="_blank" class="btn btn-default btn-lg"> <span class="network-name">Twitter</span></a> </li>
-            <li> <a href="https://www.facebook.com/TAC2018/" target="_blank" class="btn btn-default btn-lg"> <span class="network-name">Facebook</span></a> </li>
-          </ul-->
+<!-- STAFF -->
+<section id="staff" class="content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2>L'evento è organizzato da <br/><a href="http://www.agile.to.it">Agile Community Torino</a> e Italian&nbsp;Agile&nbsp;Movement</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2 col-md-offset-2">
+      <div>
+        <div class="staff_member">
+          <a href="https://www.linkedin.com/in/lucabergero/" target="_blank"> <img src="img/staff/lucabergero.jpg" alt="Luca Bergero" class="staff_member_img">
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/lucabergero/" target="_blank">Luca Bergero</a>
         </div>
       </div>
-    </section>
-  </body>
+    </div>
+    <div class="col-md-2">
+      <div>
+        <div class="staff_member">
+          <a href="https://www.linkedin.com/in/pdecandia/" target="_blank"><img src="img/staff/pinodecandia.png" alt="Pino Decandia" class="staff_member_img"></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/pdecandia/" target="_blank">Pino Decandia</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div>
+        <div class="staff_member">
+          <a href="https://www.linkedin.com/in/pleinad/" target="_blank"><img src="img/staff/danielpalmisano.jpg" alt="Daniel Palmisano" class="staff_member_img"></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/pleinad/" target="_blank">Daniel Palmisano</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div>
+        <div class="staff_member">
+          <a href="https://www.linkedin.com/in/marcosaccenti/" target="_blank"> <img src="img/staff/marcosaccenti.jpg" alt="Marco Saccenti" class="staff_member_img"></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/marcosaccenti/" target="_blank">Marco Saccenti</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-scroll" style="margin-top: 50px"> <a href="#staytuned" class="btn btn-lg"><i class='fa fa-arrow-circle-down fa-4x'></i></a> </div>
+</section>
+
+<!-- STAY TUNED -->
+<section id="staytuned" class="content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <p></p><p></p><p></p>
+      <h2>Stay tuned!</h2>
+      <ul class="list-inline banner-social-buttons">
+        <li> <a href="https://twitter.com/AgileTorinoConf" target="_blank" class="btn btn-default btn-lg"> <span class="network-name">Twitter</span></a> </li>
+        <li> <a href="https://www.facebook.com/TAC2018/" target="_blank" class="btn btn-default btn-lg"> <span class="network-name">Facebook</span></a> </li>
+        </ul-->
+    </div>
+  </div>
+</section>
+</body>
 </html>
