@@ -12,6 +12,32 @@
 	border-radius: 15px;
 }
 
+.tdescl {
+	display:inline-block;
+	margin:0 auto;
+	border: 0px solid;
+}
+
+.tdesc {
+	display:inline-block;
+	width:200px;
+	margin:0 auto;
+	border: 0px solid;
+}
+
+.tvimeo {
+	float:left;
+	border: 0px solid;
+	padding-left:5px;
+	visibility: hidden;
+}
+
+.tslideshare {
+	float:left;
+	border: 0px solid;
+	padding: 0px;
+}
+
 #location {
 	background: rgba(0, 170, 212, 0.2);
 }
@@ -222,7 +248,7 @@ table.prtbl {
 
 .prtbl td {
 	_border: solid rgba(0, 170, 212, 0.3);
-	padding: 15px;
+	padding: 5px;
 	vertical-align: middle;
 	_padding-bottom: 20px;
 }
