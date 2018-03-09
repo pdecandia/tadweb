@@ -32,6 +32,12 @@
 	visibility: hidden;
 }
 
+.tvimeos {
+	float:left;
+	border: 0px solid;
+	padding-left:5px;
+}
+
 .tslideshare {
 	float:left;
 	border: 0px solid;
